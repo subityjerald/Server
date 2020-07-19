@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
-  <display-name>GenericServlet</display-name>
- <servlet>
- <servlet-name>gene</servlet-name>
- <servlet-class> ExampleGene </servlet-class>
- </servlet>
- <servlet-mapping> 
- <servlet-name>gene</servlet-name>
- <url-pattern>/read</url-pattern>
- </servlet-mapping>
+  <servlet>
+  <servlet-name>http</servlet-name>
+  <servlet-class>Httpserv</servlet-class>
+  </servlet>
+  <servlet-mapping> 
+  <servlet-name>http</servlet-name>
+  <url-pattern>/serv</url-pattern>
+  </servlet-mapping>
 </web-app>
