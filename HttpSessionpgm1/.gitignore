@@ -1,5 +1,5 @@
 /build/
-.metadata/
+/.metadata/
 /build/
 # Compiled class file
 *.class
